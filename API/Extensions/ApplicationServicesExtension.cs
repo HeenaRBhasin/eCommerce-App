@@ -16,11 +16,11 @@ namespace API.Extensions
             services.AddSingleton<IResponseCacheService, ResponseCacheService>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped(typeof(IEcommerceRepository<>), typeof(EcommerceRepository<>));
-            services.AddScoped<IBasketRepository, BasketRepository>();
-            services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IBasketRepository1, BasketRepository>();
+            services.AddScoped<ITokenService, TokenService2>();
             services.AddScoped<IOrderService, OrderService>();
-            services.AddScoped<IPaymentService, PaymentService>();
-            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IPaymentService4, PaymentService>();
+            services.AddScoped<IUnitOfWork, UnitOfWork5>();
             
             
              services.Configure<ApiBehaviorOptions>(options =>
