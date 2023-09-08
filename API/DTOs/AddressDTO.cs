@@ -23,5 +23,9 @@ namespace API.DTOs
 
         public string Zipcode3 { get; set; }
 
+		
+		public string City2 { get; set; }
+		
+		public string City3 { get; set; }
     }
 }
